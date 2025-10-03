@@ -1,0 +1,85 @@
+
+.container{
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.input-container{
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.input{
+  padding: 8px;
+  width: 70%;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button{
+  padding: 8px 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover{
+  background-color: #218838;
+}
+
+.table{
+  width: 100%;
+  border: 0.5px solid #003263;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.table th{
+  color: #003263;
+  padding: 8px 12px;
+  text-align: left;
+  border: 0.5px solid #003263;
+}
+
+.table td{
+  color: #003263;
+  padding: 10px 12px;
+  border: 0.5px solid #003263;
+  margin: 2px 0;
+}
+
+.table tr{
+  margin-bottom: 5px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: #003263;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.contador-container {
+  text-align: center;
+  margin-top: 40px;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-radius: 6px;
+  border: 1px solid #003263;
+}
+
+.contador-container p {
+  margin: 0;
+  color: #003263;
+  font-size: 16px;
+}
